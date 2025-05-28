@@ -1,0 +1,31 @@
+/* Base styles */
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background: #FFDDAB;
+    color: #522C1B;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #945034;
+  color: white;
+}
+
+.sun {
+  width: 60px;
+  height: 60px;
+  background: #FFD166;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  box-shadow: 0 0 30px #FFD166;
+}
+
+.city-builder {
+  padding: 2rem;
+}
