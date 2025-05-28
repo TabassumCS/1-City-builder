@@ -28,4 +28,13 @@ header {
 
 .city-builder {
   padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 8px;
+  background-color: #5F8B4C; /* soft green */
+  border: 2px solid #FF9A9A; /* soft pink */
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
 }
+
