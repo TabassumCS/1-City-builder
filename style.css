@@ -38,3 +38,22 @@ header {
   margin: 0 auto;
 }
 
+
+.city-tile{
+    background-color: #FF9A9A;
+    border: 2px solid #945034; /* brown */
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 100%; /* square ratio */
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.city-tile-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
